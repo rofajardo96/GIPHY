@@ -6,20 +6,20 @@
 	padding-bottom: 15px;
 	font-family: "Carrois Gothic SC", sans-serif;
 }
-
+/* Border and text with title of webpage */
 .headertext{
 	border: solid 10px whitesmoke;
 	width: 600px;
 	margin-left: auto;
 	margin-right: auto;
 }
-
+/* side Gif dimensions */
 img {
   height:175px;
   width: 250px;
   margin-top: 5px;
 }
-
+/* Positioning Gif to left and right */
 #leftgif{
   float: left
 }
@@ -50,11 +50,11 @@ label {
 #ComicSearch {
 	margin: 0 auto;
 	text-align: center;
-	font-family: "Carrois Gothic SC", sans-serif;
+	
 }
 
 
-
+/* Editing the input form color and text */
 .form-group{
   border: 2px solid black;
   background: black;
@@ -70,7 +70,7 @@ label {
   background: black;
   color: white;
 }
-
+/* Creating the border for the gifArea as well as flex wrapping the content and spacing it out */
 #gifArea {
 	clear: both;
 	display: flex;
@@ -93,7 +93,7 @@ p {
   font-size: 36px;
   margin: 20px 0 20px 0;
 }
-
+/* Everything from here and below is css I used from a website to try out different custom text styles */
 a {
   text-decoration: none;
   -webkit-transition: all 0.5s;
