@@ -94,3 +94,6 @@ $(document).ready(function() {
       
     }
 });  
+
+// would ideally add a function to clear out the content each time one of the display buttons is clicked
+// would be something like $(#gifArea).empty() but couldn't get the logic to work without clearing out the area permanently
