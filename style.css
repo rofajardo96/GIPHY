@@ -32,8 +32,13 @@ img {
 
 label {
 	font-size: 18px;
-	margin-right: 15px;
+  margin-right: 15px;
 }
+
+.form-inline{
+  padding-left: 425px;
+}
+
 
 #comic {
 	margin-right: 5px;
@@ -46,6 +51,24 @@ label {
 	margin: 0 auto;
 	text-align: center;
 	font-family: "Carrois Gothic SC", sans-serif;
+}
+
+
+
+.form-group{
+  border: 2px solid black;
+  background: black;
+  color: white;
+  
+}
+
+#comic {
+ background: black; 
+}
+
+#addComic {
+  background: black;
+  color: white;
 }
 
 #gifArea {
